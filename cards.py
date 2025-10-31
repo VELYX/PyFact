@@ -33,7 +33,7 @@ class Card:
 
 # Implemented card comparison using tuple comparation
     def _key(self):
-        return (self.rank_index, self.suit_index)
+        return self.rank_index, self.suit_index
 
     def __eq__(self, other):
         return self._key() == other._key()
