@@ -1,4 +1,4 @@
-from pure_function_convert_from_no-op import remove_emphasis
+from pure_function_convert_from_noop import remove_emphasis
 
 TestCase = tuple[str, str]
 
